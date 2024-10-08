@@ -1,0 +1,256 @@
+V (30420) sdmmc_cmd: sending cmd slot=1 op=13 arg=e6240000 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=1000
+V (30420) sdmmc_req: make_hw_cmd: opcode=13, rexp=1, crc=1, auto_stop=0
+V (30430) sdmmc_req: sdmmc_handle_event: event 00000004 00000000, unhandled 00000000 00000000
+V (30430) sdmmc_req: process_events: state=SENDING_CMD evt=4 dma=0
+V (30440) sdmmc_req: process_events state=SENDING_CMD next_state=IDLE
+V (30450) sdmmc_req: process_events state=IDLE next_state=IDLE
+V (30450) sdmmc_req: sdmmc_handle_event: events unhandled: 00000000 00000000
+V (30460) sdmmc_cmd: cmd response 00000900 00000000 00000000 00000000 err=0x0 state=4
+V (30470) sdmmc_cmd: sending cmd slot=1 op=18 arg=23ec8 flags=1c50 data=0x3ffc1400 blklen=512 datalen=1024 timeout=1000
+V (30480) sdmmc_req: make_hw_cmd: opcode=18, rexp=1, crc=1, auto_stop=1
+V (30490) sdmmc_req: fill 4 desc=0 rem=0 next=1 last=1 sz=1024
+V (30490) sdmmc_req: sdmmc_handle_event: event 00000004 00000000, unhandled 00000000 00000000
+V (30500) sdmmc_req: process_events: state=SENDING_CMD evt=4 dma=0
+V (30510) sdmmc_req: process_events state=SENDING_CMD next_state=SENDIND_DATA
+V (30510) sdmmc_req: process_events state=SENDIND_DATA next_state=SENDIND_DATA
+V (30520) sdmmc_req: sdmmc_handle_event: events unhandled: 00000000 00000000
+V (30530) sdmmc_req: sdmmc_handle_event: event 00000008 00000002, unhandled 00000000 00000000
+V (30540) sdmmc_req: process_events: state=SENDIND_DATA evt=8 dma=2
+V (30540) sdmmc_req: process_events state=SENDIND_DATA next_state=IDLE
+V (30550) sdmmc_req: process_events state=IDLE next_state=IDLE
+V (30560) sdmmc_req: sdmmc_handle_event: events unhandled: 00000008 00000000
+V (30560) sdmmc_cmd: cmd response 00000900 00000000 00000000 00000000 err=0x0 state=4
+V (30570) sdmmc_cmd: sending cmd slot=1 op=13 arg=e6240000 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=1000
+V (30580) sdmmc_req: make_hw_cmd: opcode=13, rexp=1, crc=1, auto_stop=0
+V (30590) sdmmc_req: sdmmc_handle_event: event 00000004 00000000, unhandled 00000000 00000000
+V (30600) sdmmc_req: process_events: state=SENDING_CMD evt=4 dma=0
+V (30600) sdmmc_req: process_events state=SENDING_CMD next_state=IDLE
+V (30610) sdmmc_req: process_events state=IDLE next_state=IDLE
+V (30610) sdmmc_req: sdmmc_handle_event: events unhandled: 00000000 00000000
+V (30620) sdmmc_cmd: cmd response 00000900 00000000 00000000 00000000 err=0x0 state=4
+RINGBUF STATE:
+bytes available = 8192
+rb size: 8192
+FINISH: send to ringbuf
+RINGBUF BLUETOOTH:
+rb_out size: 258
+rb_in size: 8192
+V (30740) sdmmc_cmd: sending cmd slot=1 op=13 arg=e6240000 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=1000
+V (30740) sdmmc_req: make_hw_cmd: opcode=13, rexp=1, crc=1, auto_stop=0
+V (30750) sdmmc_req: sdmmc_handle_event: event 00000004 00000000, unhandled 00000000 00000000
+V (30750) sdmmc_req: process_events: state=SENDING_CMD evt=4 dma=0
+V (30760) sdmmc_req: process_events state=SENDING_CMD next_state=IDLE
+V (30770) sdmmc_req: process_events state=IDLE next_state=IDLE
+V (30770) sdmmc_req: sdmmc_handle_event: events unhandled: 00000000 00000000
+V (30780) sdmmc_cmd: cmd response 00000900 00000000 00000000 00000000 err=0x0 state=4
+V (30790) sdmmc_cmd: sending cmd slot=1 op=18 arg=23eca flags=1c50 data=0x3ffc1400 blklen=512 datalen=1024 timeout=1000
+V (30800) sdmmc_req: make_hw_cmd: opcode=18, rexp=1, crc=1, auto_stop=1
+V (30810) sdmmc_req: fill 4 desc=0 rem=0 next=1 last=1 sz=1024
+V (30810) sdmmc_req: sdmmc_handle_event: event 00000004 00000000, unhandled 00000000 00000000
+V (30820) sdmmc_req: process_events: state=SENDING_CMD evt=4 dma=0
+V (30830) sdmmc_req: process_events state=SENDING_CMD next_state=SENDIND_DATA
+V (30830) sdmmc_req: process_events state=SENDIND_DATA next_state=SENDIND_DATA
+V (30840) sdmmc_req: sdmmc_handle_event: events unhandled: 00000000 00000000
+V (30850) sdmmc_req: sdmmc_handle_event: event 00000008 00000002, unhandled 00000000 00000000
+V (30860) sdmmc_req: process_events: state=SENDIND_DATA evt=8 dma=2
+V (30860) sdmmc_req: process_events state=SENDIND_DATA next_state=IDLE
+V (30870) sdmmc_req: process_events state=IDLE next_state=IDLE
+V (30880) sdmmc_req: sdmmc_handle_event: events unhandled: 00000008 00000000
+V (30880) sdmmc_cmd: cmd response 00000900 00000000 00000000 00000000 err=0x0 state=4
+V (30890) sdmmc_cmd: sending cmd slot=1 op=13 arg=e6240000 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=1000
+V (30900) sdmmc_req: make_hw_cmd: opcode=13, rexp=1, crc=1, auto_stop=0
+V (30910) sdmmc_req: sdmmc_handle_event: event 00000004 00000000, unhandled 00000000 00000000
+V (30920) sdmmc_req: process_events: state=SENDING_CMD evt=4 dma=0
+V (30920) sdmmc_req: process_events state=SENDING_CMD next_state=IDLE
+V (30930) sdmmc_req: process_events state=IDLE next_state=IDLE
+V (30930) sdmmc_req: sdmmc_handle_event: events unhandled: 00000000 00000000
+V (30940) sdmmc_cmd: cmd response 00000900 00000000 00000000 00000000 err=0x0 state=4
+RINGBUF STATE:
+bytes available = 8192
+rb size: 8192
+FINISH: send to ringbuf
+RINGBUF BLUETOOTH:
+rb_out size: 258
+rb_in size: 8192
+V (31060) sdmmc_cmd: sending cmd slot=1 op=13 arg=e6240000 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=1000
+V (31060) sdmmc_req: make_hw_cmd: opcode=13, rexp=1, crc=1, auto_stop=0
+V (31070) sdmmc_req: sdmmc_handle_event: event 00000004 00000000, unhandled 00000000 00000000
+V (31070) sdmmc_req: process_events: state=SENDING_CMD evt=4 dma=0
+V (31080) sdmmc_req: process_events state=SENDING_CMD next_state=IDLE
+V (31090) sdmmc_req: process_events state=IDLE next_state=IDLE
+V (31090) sdmmc_req: sdmmc_handle_event: events unhandled: 00000000 00000000
+V (31100) sdmmc_cmd: cmd response 00000900 00000000 00000000 00000000 err=0x0 state=4
+V (31110) sdmmc_cmd: sending cmd slot=1 op=18 arg=23ecc flags=1c50 data=0x3ffc1400 blklen=512 datalen=1024 timeout=1000
+V (31120) sdmmc_req: make_hw_cmd: opcode=18, rexp=1, crc=1, auto_stop=1
+V (31130) sdmmc_req: fill 4 desc=0 rem=0 next=1 last=1 sz=1024
+V (31130) sdmmc_req: sdmmc_handle_event: event 00000004 00000000, unhandled 00000000 00000000
+V (31140) sdmmc_req: process_events: state=SENDING_CMD evt=4 dma=0
+V (31150) sdmmc_req: process_events state=SENDING_CMD next_state=SENDIND_DATA
+V (31150) sdmmc_req: process_events state=SENDIND_DATA next_state=SENDIND_DATA
+V (31160) sdmmc_req: sdmmc_handle_event: events unhandled: 00000000 00000000
+V (31170) sdmmc_req: sdmmc_handle_event: event 00000008 00000002, unhandled 00000000 00000000
+V (31180) sdmmc_req: process_events: state=SENDIND_DATA evt=8 dma=2
+V (31180) sdmmc_req: process_events state=SENDIND_DATA next_state=IDLE
+V (31190) sdmmc_req: process_events state=IDLE next_state=IDLE
+V (31200) sdmmc_req: sdmmc_handle_event: events unhandled: 00000008 00000000
+V (31200) sdmmc_cmd: cmd response 00000900 00000000 00000000 00000000 err=0x0 state=4
+V (31210) sdmmc_cmd: sending cmd slot=1 op=13 arg=e6240000 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=1000
+V (31220) sdmmc_req: make_hw_cmd: opcode=13, rexp=1, crc=1, auto_stop=0
+V (31230) sdmmc_req: sdmmc_handle_event: event 00000004 00000000, unhandled 00000000 00000000
+V (31240) sdmmc_req: process_events: state=SENDING_CMD evt=4 dma=0
+V (31240) sdmmc_req: process_events state=SENDING_CMD next_state=IDLE
+V (31250) sdmmc_req: process_events state=IDLE next_state=IDLE
+V (31250) sdmmc_req: sdmmc_handle_event: events unhandled: 00000000 00000000
+V (31260) sdmmc_cmd: cmd response 00000900 00000000 00000000 00000000 err=0x0 state=4
+RINGBUF STATE:
+bytes available = 8192
+rb size: 8192
+FINISH: send to ringbuf
+RINGBUF BLUETOOTH:
+rb_out size: 258
+rb_in size: 8192
+V (31380) sdmmc_cmd: sending cmd slot=1 op=13 arg=e6240000 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=1000
+V (31380) sdmmc_req: make_hw_cmd: opcode=13, rexp=1, crc=1, auto_stop=0
+V (31390) sdmmc_req: sdmmc_handle_event: event 00000004 00000000, unhandled 00000000 00000000
+V (31390) sdmmc_req: process_events: state=SENDING_CMD evt=4 dma=0
+V (31400) sdmmc_req: process_events state=SENDING_CMD next_state=IDLE
+V (31410) sdmmc_req: process_events state=IDLE next_state=IDLE
+V (31410) sdmmc_req: sdmmc_handle_event: events unhandled: 00000000 00000000
+V (31420) sdmmc_cmd: cmd response 00000900 00000000 00000000 00000000 err=0x0 state=4
+V (31430) sdmmc_cmd: sending cmd slot=1 op=18 arg=23ece flags=1c50 data=0x3ffc1400 blklen=512 datalen=1024 timeout=1000
+V (31440) sdmmc_req: make_hw_cmd: opcode=18, rexp=1, crc=1, auto_stop=1
+V (31450) sdmmc_req: fill 4 desc=0 rem=0 next=1 last=1 sz=1024
+V (31450) sdmmc_req: sdmmc_handle_event: event 00000004 00000000, unhandled 00000000 00000000
+V (31460) sdmmc_req: process_events: state=SENDING_CMD evt=4 dma=0
+V (31470) sdmmc_req: process_events state=SENDING_CMD next_state=SENDIND_DATA
+V (31470) sdmmc_req: process_events state=SENDIND_DATA next_state=SENDIND_DATA
+V (31480) sdmmc_req: sdmmc_handle_event: events unhandled: 00000000 00000000
+V (31490) sdmmc_req: sdmmc_handle_event: event 00000008 00000002, unhandled 00000000 00000000
+V (31500) sdmmc_req: process_events: state=SENDIND_DATA evt=8 dma=2
+V (31500) sdmmc_req: process_events state=SENDIND_DATA next_state=IDLE
+V (31510) sdmmc_req: process_events state=IDLE next_state=IDLE
+V (31520) sdmmc_req: sdmmc_handle_event: events unhandled: 00000008 00000000
+V (31520) sdmmc_cmd: cmd response 00000900 00000000 00000000 00000000 err=0x0 state=4
+V (31530) sdmmc_cmd: sending cmd slot=1 op=13 arg=e6240000 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=1000
+V (31540) sdmmc_req: make_hw_cmd: opcode=13, rexp=1, crc=1, auto_stop=0
+V (31550) sdmmc_req: sdmmc_handle_event: event 00000004 00000000, unhandled 00000000 00000000
+V (31560) sdmmc_req: process_events: state=SENDING_CMD evt=4 dma=0
+V (31560) sdmmc_req: process_events state=SENDING_CMD next_state=IDLE
+V (31570) sdmmc_req: process_events state=IDLE next_state=IDLE
+V (31570) sdmmc_req: sdmmc_handle_event: events unhandled: 00000000 00000000
+V (31580) sdmmc_cmd: cmd response 00000900 00000000 00000000 00000000 err=0x0 state=4
+RINGBUF STATE:
+bytes available = 8192
+rb size: 8192
+FINISH: send to ringbuf
+RINGBUF BLUETOOTH:
+rb_out size: 258
+rb_in size: 8192
+V (31700) sdmmc_cmd: sending cmd slot=1 op=13 arg=e6240000 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=1000
+V (31700) sdmmc_req: make_hw_cmd: opcode=13, rexp=1, crc=1, auto_stop=0
+V (31710) sdmmc_req: sdmmc_handle_event: event 00000004 00000000, unhandled 00000000 00000000
+V (31710) sdmmc_req: process_events: state=SENDING_CMD evt=4 dma=0
+V (31720) sdmmc_req: process_events state=SENDING_CMD next_state=IDLE
+V (31730) sdmmc_req: process_events state=IDLE next_state=IDLE
+V (31730) sdmmc_req: sdmmc_handle_event: events unhandled: 00000000 00000000
+V (31740) sdmmc_cmd: cmd response 00000900 00000000 00000000 00000000 err=0x0 state=4
+V (31750) sdmmc_cmd: sending cmd slot=1 op=18 arg=23ed0 flags=1c50 data=0x3ffc1400 blklen=512 datalen=1024 timeout=1000
+V (31760) sdmmc_req: make_hw_cmd: opcode=18, rexp=1, crc=1, auto_stop=1
+V (31770) sdmmc_req: fill 4 desc=0 rem=0 next=1 last=1 sz=1024
+V (31770) sdmmc_req: sdmmc_handle_event: event 00000004 00000000, unhandled 00000000 00000000
+V (31780) sdmmc_req: process_events: state=SENDING_CMD evt=4 dma=0
+V (31790) sdmmc_req: process_events state=SENDING_CMD next_state=SENDIND_DATA
+V (31790) sdmmc_req: process_events state=SENDIND_DATA next_state=SENDIND_DATA
+V (31800) sdmmc_req: sdmmc_handle_event: events unhandled: 00000000 00000000
+V (31810) sdmmc_req: sdmmc_handle_event: event 00000008 00000002, unhandled 00000000 00000000
+V (31820) sdmmc_req: process_events: state=SENDIND_DATA evt=8 dma=2
+V (31820) sdmmc_req: process_events state=SENDIND_DATA next_state=IDLE
+V (31830) sdmmc_req: process_events state=IDLE next_state=IDLE
+V (31840) sdmmc_req: sdmmc_handle_event: events unhandled: 00000008 00000000
+V (31840) sdmmc_cmd: cmd response 00000900 00000000 00000000 00000000 err=0x0 state=4
+V (31850) sdmmc_cmd: sending cmd slot=1 op=13 arg=e6240000 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=1000
+V (31860) sdmmc_req: make_hw_cmd: opcode=13, rexp=1, crc=1, auto_stop=0
+V (31870) sdmmc_req: sdmmc_handle_event: event 00000004 00000000, unhandled 00000000 00000000
+V (31880) sdmmc_req: process_events: state=SENDING_CMD evt=4 dma=0
+V (31880) sdmmc_req: process_events state=SENDING_CMD next_state=IDLE
+V (31890) sdmmc_req: process_events state=IDLE next_state=IDLE
+V (31890) sdmmc_req: sdmmc_handle_event: events unhandled: 00000000 00000000
+V (31900) sdmmc_cmd: cmd response 00000900 00000000 00000000 00000000 err=0x0 state=4
+RINGBUF STATE:
+bytes available = 8192
+rb size: 8192
+FINISH: send to ringbuf
+RINGBUF BLUETOOTH:
+rb_out size: 258
+rb_in size: 8192
+V (32020) sdmmc_cmd: sending cmd slot=1 op=13 arg=e6240000 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=1000
+V (32020) sdmmc_req: make_hw_cmd: opcode=13, rexp=1, crc=1, auto_stop=0
+V (32030) sdmmc_req: sdmmc_handle_event: event 00000004 00000000, unhandled 00000000 00000000
+V (32030) sdmmc_req: process_events: state=SENDING_CMD evt=4 dma=0
+V (32040) sdmmc_req: process_events state=SENDING_CMD next_state=IDLE
+V (32050) sdmmc_req: process_events state=IDLE next_state=IDLE
+V (32050) sdmmc_req: sdmmc_handle_event: events unhandled: 00000000 00000000
+V (32060) sdmmc_cmd: cmd response 00000900 00000000 00000000 00000000 err=0x0 state=4
+V (32070) sdmmc_cmd: sending cmd slot=1 op=18 arg=23ed2 flags=1c50 data=0x3ffc1400 blklen=512 datalen=1024 timeout=1000
+V (32080) sdmmc_req: make_hw_cmd: opcode=18, rexp=1, crc=1, auto_stop=1
+V (32090) sdmmc_req: fill 4 desc=0 rem=0 next=1 last=1 sz=1024
+V (32090) sdmmc_req: sdmmc_handle_event: event 00000004 00000000, unhandled 00000000 00000000
+V (32100) sdmmc_req: process_events: state=SENDING_CMD evt=4 dma=0
+V (32110) sdmmc_req: process_events state=SENDING_CMD next_state=SENDIND_DATA
+V (32110) sdmmc_req: process_events state=SENDIND_DATA next_state=SENDIND_DATA
+V (32120) sdmmc_req: sdmmc_handle_event: events unhandled: 00000000 00000000
+V (32130) sdmmc_req: sdmmc_handle_event: event 00000008 00000002, unhandled 00000000 00000000
+V (32140) sdmmc_req: process_events: state=SENDIND_DATA evt=8 dma=2
+V (32140) sdmmc_req: process_events state=SENDIND_DATA next_state=IDLE
+V (32150) sdmmc_req: process_events state=IDLE next_state=IDLE
+V (32160) sdmmc_req: sdmmc_handle_event: events unhandled: 00000008 00000000
+V (32160) sdmmc_cmd: cmd response 00000900 00000000 00000000 00000000 err=0x0 state=4
+V (32170) sdmmc_cmd: sending cmd slot=1 op=13 arg=e6240000 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=1000
+V (32180) sdmmc_req: make_hw_cmd: opcode=13, rexp=1, crc=1, auto_stop=0
+V (32190) sdmmc_req: sdmmc_handle_event: event 00000004 00000000, unhandled 00000000 00000000
+V (32200) sdmmc_req: process_events: state=SENDING_CMD evt=4 dma=0
+V (32200) sdmmc_req: process_events state=SENDING_CMD next_state=IDLE
+V (32210) sdmmc_req: process_events state=IDLE next_state=IDLE
+V (32210) sdmmc_req: sdmmc_handle_event: events unhandled: 00000000 00000000
+V (32220) sdmmc_cmd: cmd response 00000900 00000000 00000000 00000000 err=0x0 state=4
+RINGBUF STATE:
+bytes available = 8192
+rb size: 8192
+FINISH: send to ringbuf
+RINGBUF BLUETOOTH:
+rb_out size: 258
+rb_in size: 8192
+V (32340) sdmmc_cmd: sending cmd slot=1 op=13 arg=e6240000 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=1000
+V (32340) sdmmc_req: make_hw_cmd: opcode=13, rexp=1, crc=1, auto_stop=0
+V (32350) sdmmc_req: sdmmc_handle_event: event 00000004 00000000, unhandled 00000000 00000000
+V (32350) sdmmc_req: process_events: state=SENDING_CMD evt=4 dma=0
+V (32360) sdmmc_req: process_events state=SENDING_CMD next_state=IDLE
+V (32370) sdmmc_req: process_events state=IDLE next_state=IDLE
+V (32370) sdmmc_req: sdmmc_handle_event: events unhandled: 00000000 00000000
+V (32380) sdmmc_cmd: cmd response 00000900 00000000 00000000 00000000 err=0x0 state=4
+V (32390) sdmmc_cmd: sending cmd slot=1 op=18 arg=23ed4 flags=1c50 data=0x3ffc1400 blklen=512 datalen=1024 timeout=1000
+V (32400) sdmmc_req: make_hw_cmd: opcode=18, rexp=1, crc=1, auto_stop=1
+V (32410) sdmmc_req: fill 4 desc=0 rem=0 next=1 last=1 sz=1024
+V (32410) sdmmc_req: sdmmc_handle_event: event 00000004 00000000, unhandled 00000000 00000000
+V (32420) sdmmc_req: process_events: state=SENDING_CMD evt=4 dma=0
+V (32430) sdmmc_req: process_events state=SENDING_CMD next_state=SENDIND_DATA
+V (32430) sdmmc_req: process_events state=SENDIND_DATA next_state=SENDIND_DATA
+V (32440) sdmmc_req: sdmmc_handle_event: events unhandled: 00000000 00000000
+V (32450) sdmmc_req: sdmmc_handle_event: event 00000008 00000002, unhandled 00000000 00000000
+V (32460) sdmmc_req: process_events: state=SENDIND_DATA evt=8 dma=2
+V (32460) sdmmc_req: process_events state=SENDIND_DATA next_state=IDLE
+V (32470) sdmmc_req: process_events state=IDLE next_state=IDLE
+V (32480) sdmmc_req: sdmmc_handle_event: events unhandled: 00000008 00000000
+V (32480) sdmmc_cmd: cmd response 00000900 00000000 00000000 00000000 err=0x0 state=4
+V (32490) sdmmc_cmd: sending cmd slot=1 op=13 arg=e6240000 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=1000
+V (32500) sdmmc_req: make_hw_cmd: opcode=13, rexp=1, crc=1, auto_stop=0
+V (32510) sdmmc_req: sdmmc_handle_event: event 00000004 00000000, unhandled 00000000 00000000
+V (32520) sdmmc_req: process_events: state=SENDING_CMD evt=4 dma=0
+V (32520) sdmmc_req: process_events state=SENDING_CMD next_state=IDLE
+V (32530) sdmmc_req: process_events state=IDLE next_state=IDLE
+V (32530) sdmmc_req: sdmmc_handle_event: events unhandled: 00000000 00000000
+V (32540) sdmmc_cmd: cmd response 00000900 00000000 00000000 00000000 err=0x0 state=4
+RINGBUF STATE:
+bytes available = 8192
+rb size: 8192
+FINISH: send to ringbuf
